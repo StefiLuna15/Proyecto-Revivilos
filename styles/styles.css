@@ -1,0 +1,88 @@
+/* COLORES
+#4F14AD */
+
+/*Reset de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------------ Header --------------*/
+.logo {
+    width: 8rem;
+}
+
+.img1 {
+    width: 40rem;
+    padding: 5rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+/*------------------ Main --------------*/
+
+.imgMain {
+    width: 20rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section div img {
+    width: 20rem;
+}
+
+.savia {
+    width: 15rem;
+}
+
+
+/*------------------ Productos --------------*/
+
+.productos {
+    background-color: rgb(213, 179, 245);
+}
+
+h2 {
+    text-align: center;
+}
+
+/*------------------ Revivilos --------------*/
+
+.imgVerde {
+    width: 40rem;
+}
+
+.imgVioleta {
+    width: 40rem;
+}
+
+
+
+
+
+/*------------------ Footer --------------*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: none;
+}
