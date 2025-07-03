@@ -9,11 +9,23 @@
 
 
 /*------------------ Header --------------*/
+
+.bg-navbar-propio {
+    background-color: rgb(176, 221, 176);
+}
+
+
 .logo {
     width: 8rem;
 }
 
-.img1 {
+/* .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+/* .img1 {
     width: 40rem;
     padding: 5rem;
 }
@@ -28,47 +40,92 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-}
+} */ 
 
 /*------------------ Main --------------*/
+
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
 
 .imgMain {
     width: 20rem;
 }
 
-section {
+.img1 {
+    width: 60rem;
+    border-radius: 0.2rem;
+    margin-left: 17rem;
+    padding: 2rem;
+}
+
+.home {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 5rem;
 }
 
 section div img {
-    width: 20rem;
+    width: 15rem;
 }
 
 .savia {
-    width: 15rem;
+    width: 11rem;
 }
+
+
 
 
 /*------------------ Productos --------------*/
 
 .productos {
-    background-color: rgb(213, 179, 245);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem;
 }
 
 h2 {
     text-align: center;
+    padding: 2rem;
 }
 
 /*------------------ Revivilos --------------*/
 
+.revivilos1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.revivilos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
 .imgVerde {
-    width: 40rem;
+    width: 30rem;
 }
 
 .imgVioleta {
-    width: 40rem;
+    width: 30rem;
+}
+
+/*------------------ Marcas --------------*/
+
+
+
+/*------------------ Contacto --------------*/
+
+.formulario {
+    margin: 2rem 20rem;
+    padding: 4rem;
 }
 
 
@@ -81,8 +138,124 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: rgb(176, 221, 176);
+    padding: 0.5rem;
 }
 
 footer ul {
     list-style: none;
+}
+
+
+/* --------------- Código de mi nav--------------- */
+ /* <!-- <img class="logo" src="./assets/Revivilos-Logo.png" alt="Logo">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="./pages/revivilos.html">Revivilos</a>
+                    <a href="./pages/marcas.html">Marcas</a>
+                    <a href="./pages/productos.html">Productos</a>
+                    <a href="./pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav> --> */
+
+/*------------------- Responsive --------------------*/
+
+/*------------ Home ----------*/
+
+@media (max-width: 440px) {
+    .bg-navbar-propio {
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .img1 {
+        width: 20rem;
+        margin-left: 3.2rem;
+        padding: 0.5rem;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 5rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 768px) {
+    h1 {
+        text-align: center;
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .img1 {
+        width: 30rem;
+        margin-left: 4.7rem;
+        padding: 0.5rem;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 5rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        font-size: 1rem;
+    }
+}
+
+/*------------ Contacto ----------*/
+
+@media (max-width: 440px) {
+    h2 {
+        text-align: center;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .formulario {
+        margin: 1rem 2rem;
+        padding: 2rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 768px) {
+    h1 {
+        text-align: center;
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .formulario {
+        margin: 2rem 4rem;
+        padding: 2rem;
+    }
 }
