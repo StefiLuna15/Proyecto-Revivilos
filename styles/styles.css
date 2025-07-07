@@ -19,29 +19,6 @@
     width: 8rem;
 }
 
-/* .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
-
-/* .img1 {
-    width: 40rem;
-    padding: 5rem;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-} */ 
-
 /*------------------ Main --------------*/
 
 
@@ -146,21 +123,6 @@ footer ul {
     list-style: none;
 }
 
-
-/* --------------- Código de mi nav--------------- */
- /* <!-- <img class="logo" src="./assets/Revivilos-Logo.png" alt="Logo">
-        <nav class="navbar">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                    <a href="./pages/revivilos.html">Revivilos</a>
-                    <a href="./pages/marcas.html">Marcas</a>
-                    <a href="./pages/productos.html">Productos</a>
-                    <a href="./pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav> --> */
-
 /*------------------- Responsive --------------------*/
 
 /*------------ Home ----------*/
@@ -176,17 +138,22 @@ footer ul {
         font-size: 2rem;
     }
 
+    .imagen1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .img1 {
-        width: 20rem;
-        margin-left: 3.2rem;
-        padding: 0.5rem;
+        width: 18rem;
+        margin: 1rem 2rem;
     }
 
     .home {
         display: flex;
         flex-direction: column;
         text-align: center;
-        width: 5rem;
+        
     }
 
     footer {
@@ -204,17 +171,20 @@ footer ul {
         font-size: 2.5rem;
     }
 
+    .imagen1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .img1 {
-        width: 30rem;
-        margin-left: 4.7rem;
-        padding: 0.5rem;
+        width: 28rem;
+        margin: 1rem 2rem;
     }
 
     .home {
-        display: flex;
         flex-direction: column;
-        text-align: center;
-        width: 5rem;
+        align-items: center;
     }
 
     footer {
