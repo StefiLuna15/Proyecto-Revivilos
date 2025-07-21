@@ -1,10 +1,8 @@
-footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: rgb(176, 221, 176);
-        padding: 0.5rem;
-        ul {
-            list-style: none;
-    }
-}
+// BASE
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+
+// COMPONENTS
+@use "./partials/components/navbar";
+@use "./partials/components/general";
+@use "./partials/components/footer";
