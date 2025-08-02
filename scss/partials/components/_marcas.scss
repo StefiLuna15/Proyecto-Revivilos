@@ -1,0 +1,9 @@
+.marcas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem;
+    img {
+        width: 15rem;
+    }
+}

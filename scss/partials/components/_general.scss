@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+h3 {
+   text-align: center;
+    padding: 2rem; 
+}
+
+.destacados {
+    display: flex;
+    justify-content: space-around;
+    // background-color: rgb(227, 243, 227);
+    background-color: rgb(225, 244, 225);
+    padding: 3rem;
+    margin: 4rem 5rem 5rem 4rem;
+    border-radius: .3rem;
+    img {
+        width: 13rem;
+        padding: .2rem;
+        background-color: rgb(176, 221, 176);
+        border-radius: .3rem;
+    }
+}
+
+.savia {
+    width: 11rem;
+}
+
+.img1 {
+    width: 60rem;
+    border-radius: 2rem;
+    margin-left: 17rem;
+    padding: 2rem;
+}
+
+// section div img {
+//     width: 15rem;
+// }

@@ -3,6 +3,107 @@
   padding: 0;
 }
 
+.bg-navbar-propio {
+  background-color: rgb(176, 221, 176);
+}
+.bg-navbar-propio .logo {
+  width: 8rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+h3 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.destacados {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(225, 244, 225);
+  padding: 3rem;
+  margin: 4rem 5rem 5rem 4rem;
+  border-radius: 0.3rem;
+}
+.destacados img {
+  width: 13rem;
+  padding: 0.2rem;
+  background-color: rgb(176, 221, 176);
+  border-radius: 0.3rem;
+}
+
+.savia {
+  width: 11rem;
+}
+
+.img1 {
+  width: 60rem;
+  border-radius: 2rem;
+  margin-left: 17rem;
+  padding: 2rem;
+}
+
+.revivilos1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 3rem;
+}
+.revivilos1 img {
+  width: 30rem;
+}
+.revivilos1 img .texto {
+  margin-top: 3rem;
+}
+
+.revivilos2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 3rem;
+}
+.revivilos2 img {
+  width: 25rem;
+}
+
+.marcas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 6rem;
+}
+.marcas img {
+  width: 15rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 6rem;
+}
+.productos img {
+  width: 15rem;
+}
+.productos .savia {
+  width: 11rem;
+}
+
+.formulario {
+  margin: 2rem 20rem;
+  padding: 4rem;
+}
+
 footer {
   display: flex;
   flex-direction: row;

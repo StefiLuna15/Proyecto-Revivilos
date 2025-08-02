@@ -1,0 +1,19 @@
+@use "../utilities/mixins";
+
+h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem;
+    img {
+        width: 15rem;
+    }
+    .savia {
+        width: 11rem;
+    }
+}
