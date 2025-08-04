@@ -6,9 +6,6 @@
     margin: 3rem;
     img {
         width: 30rem;
-        .texto {
-            margin-top: 3rem;
-        }
     }
 }
 
@@ -21,4 +18,10 @@
     img {
         width: 25rem;
     }
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

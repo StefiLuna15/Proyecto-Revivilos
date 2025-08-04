@@ -1,19 +1,82 @@
 @use "../utilities/mixins";
+@import "../utilities/variables";
 
 h2 {
     text-align: center;
     padding: 2rem;
 }
 
-.productos {
+.catalogo {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 6rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.producto {
+    background-color: $background-color;
+    width: 23rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: $border-radius;
     img {
         width: 15rem;
-    }
-    .savia {
-        width: 11rem;
+        margin: 1rem;
+        padding: .2rem;
+        background-color: $color-footer-img;
     }
 }
+
+.producto {
+    transition: .5s;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.producto .savia {
+    width: 10.5rem;
+    
+}
+
+.producto .savia2 {
+    width: 12.7rem;
+}
+
+.producto .savia3 {
+    width: 12.7rem;
+}
+
+.producto button {
+    list-style-type: none;
+    background-color: #4F14AD;
+    color: #8BEA9E;
+    width: 8rem;
+    border-radius: .3rem;
+    margin: 1rem;
+    padding: .3rem;
+    transition: .5s;
+    &:hover {
+        background-color: #bd9cf2;
+        color: black;
+    }
+}
+
+
+
+
+
+// .productos {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-around;
+//     padding: 6rem;
+//     img {
+//         width: 15rem;
+//     }
+//     .savia {
+//         width: 11rem;
+//     }
+// }
