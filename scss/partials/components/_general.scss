@@ -1,10 +1,12 @@
+@import "../utilities/variables";
+
 h1 {
     text-align: center;
     padding: 2rem;
 }
 
 h3 {
-   text-align: center;
+    text-align: center;
     padding: 2rem; 
 }
 
@@ -12,14 +14,14 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(225, 244, 225);
+    background-color: $background-color;
     padding: 3rem;
     margin: 4rem 5rem 5rem 4rem;
     border-radius: .3rem;
     img {
         width: 13rem;
         padding: .2rem;
-        background-color: rgb(176, 221, 176);
+        background-color: $color-footer-img;
         border-radius: .3rem;
         transition: .5s;
         &:hover {
@@ -33,12 +35,10 @@ h3 {
 }
 
 .img1 {
-    width: 60rem;
-    border-radius: 2rem;
-    margin-left: 17rem;
-    padding: 2rem;
+    width: 57rem;
+    border-radius: .5rem;
+    margin-left: 18rem;
+    padding: 1rem;
 }
 
-// section div img {
-//     width: 15rem;
-// }
+

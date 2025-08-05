@@ -45,10 +45,10 @@ h3 {
 }
 
 .img1 {
-  width: 60rem;
-  border-radius: 2rem;
-  margin-left: 17rem;
-  padding: 2rem;
+  width: 57rem;
+  border-radius: 0.5rem;
+  margin-left: 18rem;
+  padding: 1rem;
 }
 
 .revivilos1 {
@@ -56,10 +56,12 @@ h3 {
   flex-direction: row-reverse;
   justify-content: space-around;
   padding: 1rem;
-  margin: 3rem;
+  margin: 2rem 4rem;
+  background-color: rgb(225, 244, 225);
+  border-radius: 0.3rem;
 }
 .revivilos1 img {
-  width: 30rem;
+  width: 28rem;
 }
 
 .revivilos2 {
@@ -67,26 +69,63 @@ h3 {
   flex-direction: row;
   justify-content: space-around;
   padding: 1rem;
-  margin: 3rem;
+  margin: 2rem 4rem;
+  background-color: rgb(225, 244, 225);
+  border-radius: 0.3rem;
 }
 .revivilos2 img {
-  width: 25rem;
+  width: 22rem;
+}
+
+.revivilos3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 2rem 4rem 5rem 4rem;
+  background-color: rgb(225, 244, 225);
+  border-radius: 0.3rem;
+}
+.revivilos3 img {
+  width: 33rem;
 }
 
 .texto {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 2rem;
+}
+
+.imgMarcas {
+  width: 50rem;
+  padding: 1rem;
+  margin-left: 22rem;
 }
 
 .marcas {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 6rem;
+  background-color: rgb(225, 244, 225);
+  border-radius: 0.3rem;
+  padding: 3rem;
+  margin: 4rem 5rem 5rem 4rem;
 }
 .marcas img {
   width: 15rem;
+  transition: 0.5s;
+}
+.marcas img:hover {
+  transform: scale(1.3);
+}
+
+.marcas .marcaSavia {
+  width: 18rem;
+}
+
+.marcas .marcaSedal {
+  width: 17rem;
 }
 
 h2 {

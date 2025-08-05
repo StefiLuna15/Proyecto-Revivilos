@@ -1,11 +1,15 @@
+@import "../utilities/variables";
+
 .revivilos1 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     padding: 1rem;
-    margin: 3rem;
+    margin: 2rem 4rem;
+    background-color: $background-color;
+    border-radius: $border-radius;
     img {
-        width: 30rem;
+        width: 28rem;
     }
 }
 
@@ -14,9 +18,24 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
-    margin: 3rem;
+    margin: 2rem 4rem;
+    background-color: $background-color;
+    border-radius: $border-radius;
     img {
-        width: 25rem;
+        width: 22rem;
+    }
+}
+
+.revivilos3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 2rem 4rem 5rem 4rem;
+    background-color: $background-color;
+    border-radius: $border-radius;
+    img {
+        width: 33rem;
     }
 }
 
@@ -24,4 +43,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    // background-color: $background-color;
+    // border-radius: $border-radius;
+    padding: 2rem;
 }
