@@ -1,4 +1,4 @@
-@use "../utilities/mixins";
+@import "../utilities/mixins";
 @import "../utilities/variables";
 
 h2 {
@@ -9,9 +9,7 @@ h2 {
 }
 
 .catalogo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex (row, space-around, center);
     text-align: center;
     margin: 1rem;
     padding: 1rem;
@@ -49,23 +47,6 @@ h2 {
 
 .producto .savia3 {
     width: 12.7rem;
-}
-
-.producto button {
-    list-style-type: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    background-color: #4F14AD;
-    color: #8BEA9E;
-    width: 8rem;
-    border-radius: .3rem;
-    margin: 1rem;
-    padding: .3rem;
-    transition: .5s;
-    &:hover {
-        background-color: #bd9cf2;
-        color: black;
-    }
 }
 
 .producto p {

@@ -1,11 +1,10 @@
+@import "../utilities/mixins";
 @import "../utilities/variables";
 
 .revivilos1 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    @include flex (row-reverse, space-around, center);
     padding: 1rem;
-    margin: 2rem 4rem;
+    margin: $margin-revivilos;
     background-color: $background-color;
     border-radius: $border-radius;
     img {
@@ -14,11 +13,9 @@
 }
 
 .revivilos2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    @include flex (row, space-around, center);
     padding: 1rem;
-    margin: 2rem 4rem;
+    margin: $margin-revivilos;
     background-color: $background-color;
     border-radius: $border-radius;
     img {
@@ -27,9 +24,7 @@
 }
 
 .revivilos3 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    @include flex (row-reverse, space-around, center);
     padding: 1rem;
     margin: 2rem 4rem 5rem 4rem;
     background-color: $background-color;
@@ -40,13 +35,12 @@
 }
 
 .texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    // background-color: $background-color;
-    // border-radius: $border-radius;
+    @include flex (column, space-around, center);
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
     padding: 2rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 20px;
 }

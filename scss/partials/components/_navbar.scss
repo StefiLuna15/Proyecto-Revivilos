@@ -1,5 +1,7 @@
+@import "../utilities/variables";
+
 .bg-navbar-propio {
-    background-color: rgb(176, 221, 176);
+    background-color: $color-footer-img;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     .logo {
