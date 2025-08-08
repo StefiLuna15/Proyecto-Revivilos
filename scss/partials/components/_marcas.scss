@@ -9,9 +9,6 @@
 
 .marcas {
     @include flex (row, space-around, center);
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-around;
     background-color: $background-color;
     border-radius: $border-radius;
     padding: 3rem;
