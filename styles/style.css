@@ -233,7 +233,8 @@ h4 {
   color: black;
 }
 
-/*------------ Home ----------*/
+/*------------------------ Media Queries ------------------------*/
+/*----------------------- Home -----------------------*/
 @media (max-width: 440px) {
   .bg-navbar-propio {
     margin: auto;
@@ -322,7 +323,107 @@ h4 {
     font-size: 1rem;
   }
 }
-/*------------ Marcas ----------*/
+/*----------------------- Revivilos -----------------------*/
+@media (max-width: 440px) {
+  .bg-navbar-propio {
+    margin: auto;
+  }
+  h2 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+  }
+  .revivilos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+  .revivilos1 img {
+    width: 12rem;
+  }
+  .revivilos2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+  .revivilos2 img {
+    width: 10rem;
+  }
+  .revivilos3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .revivilos3 img {
+    width: 12rem;
+  }
+  .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+}
+@media (min-width: 441px) and (max-width: 768px) {
+  h2 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 25px;
+  }
+  .revivilos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+  .revivilos1 img {
+    width: 20rem;
+  }
+  .revivilos2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+  .revivilos2 img {
+    width: 17rem;
+  }
+  .revivilos3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .revivilos3 img {
+    width: 21rem;
+  }
+  .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+}
+/*----------------------- Marcas -----------------------*/
 @media (max-width: 440px) {
   .bg-navbar-propio {
     margin: auto;
@@ -402,7 +503,7 @@ h4 {
     width: 10rem;
   }
 }
-/*------------ Productos ----------*/
+/*----------------------- Productos -----------------------*/
 @media (max-width: 440px) {
   .bg-navbar-propio {
     margin: auto;
@@ -496,7 +597,7 @@ h4 {
     font-weight: 500;
   }
 }
-/*------------ Contacto ----------*/
+/*----------------------- Contacto -----------------------*/
 @media (max-width: 440px) {
   h2 {
     text-align: center;
