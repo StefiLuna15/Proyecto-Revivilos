@@ -120,10 +120,10 @@
         margin: auto;
     }
 
-    h2 {
+    h1 {
         text-align: center;
         padding: 1rem;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .revivilos1 {
@@ -161,10 +161,10 @@
 }
 
 @media (min-width: 441px) and (max-width: 768px) {
-    h2 {
+    h1 {
         text-align: center;
         padding: 1rem;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .revivilos1 {
@@ -210,10 +210,10 @@
         margin: auto;
     }
 
-    h2 {
+    h1 {
         text-align: center;
         padding: 1rem;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .marcasDiv {
@@ -252,10 +252,10 @@
 }
 
 @media (min-width: 441px) and (max-width: 768px) {
-    h2 {
+    h1 {
         text-align: center;
         padding: 1rem;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .marcasDiv {
@@ -299,6 +299,12 @@
 @media (max-width: 440px) {
     .bg-navbar-propio {
         margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 1rem;
+        font-size: 25px;
     }
 
     h2 {
@@ -351,6 +357,12 @@
 }
 
 @media (min-width: 441px) and (max-width: 768px) {
+    h1 {
+        text-align: center;
+        padding: 1rem;
+        font-size: 30px;
+    }
+    
     h2 {
         text-align: center;
         padding: 1rem;
@@ -405,10 +417,10 @@
 /*----------------------- Contacto -----------------------*/
 
 @media (max-width: 440px) {
-    h2 {
+    h1 {
         text-align: center;
         padding: 1rem;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .formulario {
@@ -425,10 +437,10 @@
 }
 
 @media (min-width: 441px) and (max-width: 768px) {
-    h2 {
+    h1 {
         text-align: center;
         padding: 1rem;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .formulario {

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Revivilos. Página inicial con productos destacados para el cabello ondulado y rizado">
+    <meta name="keywords" content="Página, tienda, rizos, rulos, ondulados">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Revivilos | Index</title>
@@ -45,13 +47,13 @@
     <main>
         <h1>Revivilos al Máximo!</h1>
 
-        <div class="imagen1">
+        <section class="imagen1">
             <img class="img1" src="./assets/mujerV1.jpg" alt="Mujer con cabello rizado, sonriendo">
-        </div>
+        </section>
         
         <section>
             <div>
-                <h2>Productos Destacados</h2>
+                <h2 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Productos Destacados</h2>
                 <article class="destacados">
                     <div>
                         <img src="./assets/Lumina.png" alt="Shampoo Natura">
@@ -96,6 +98,10 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
 </body>

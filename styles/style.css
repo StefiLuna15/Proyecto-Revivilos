@@ -191,6 +191,10 @@ h2 {
   font-weight: 500;
 }
 
+.producto h3 {
+  font-size: 23px;
+}
+
 .formulario {
   margin: 2rem 20rem;
   padding: 4rem;
@@ -328,10 +332,10 @@ h4 {
   .bg-navbar-propio {
     margin: auto;
   }
-  h2 {
+  h1 {
     text-align: center;
     padding: 1rem;
-    font-size: 20px;
+    font-size: 25px;
   }
   .revivilos1 {
     display: flex;
@@ -376,10 +380,10 @@ h4 {
   }
 }
 @media (min-width: 441px) and (max-width: 768px) {
-  h2 {
+  h1 {
     text-align: center;
     padding: 1rem;
-    font-size: 25px;
+    font-size: 30px;
   }
   .revivilos1 {
     display: flex;
@@ -428,10 +432,10 @@ h4 {
   .bg-navbar-propio {
     margin: auto;
   }
-  h2 {
+  h1 {
     text-align: center;
     padding: 1rem;
-    font-size: 20px;
+    font-size: 25px;
   }
   .marcasDiv {
     display: flex;
@@ -466,10 +470,10 @@ h4 {
   }
 }
 @media (min-width: 441px) and (max-width: 768px) {
-  h2 {
+  h1 {
     text-align: center;
     padding: 1rem;
-    font-size: 25px;
+    font-size: 30px;
   }
   .marcasDiv {
     display: flex;
@@ -507,6 +511,11 @@ h4 {
 @media (max-width: 440px) {
   .bg-navbar-propio {
     margin: auto;
+  }
+  h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 25px;
   }
   h2 {
     text-align: center;
@@ -553,6 +562,11 @@ h4 {
   }
 }
 @media (min-width: 441px) and (max-width: 768px) {
+  h1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 30px;
+  }
   h2 {
     text-align: center;
     padding: 1rem;
@@ -599,10 +613,10 @@ h4 {
 }
 /*----------------------- Contacto -----------------------*/
 @media (max-width: 440px) {
-  h2 {
+  h1 {
     text-align: center;
     padding: 1rem;
-    font-size: 20px;
+    font-size: 25px;
   }
   .formulario {
     margin: 1rem 2rem;
@@ -616,10 +630,10 @@ h4 {
   }
 }
 @media (min-width: 441px) and (max-width: 768px) {
-  h2 {
+  h1 {
     text-align: center;
     padding: 1rem;
-    font-size: 25px;
+    font-size: 30px;
   }
   .formulario {
     margin: 2rem 4rem;
